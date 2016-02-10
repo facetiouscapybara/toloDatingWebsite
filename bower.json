@@ -1,0 +1,23 @@
+{
+  "name": "Tolo",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Eric Geniesse <egeniesse@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "docs/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6"
+  }
+}
