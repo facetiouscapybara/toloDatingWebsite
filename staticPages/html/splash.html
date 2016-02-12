@@ -22,7 +22,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,7 +38,6 @@
                 <li class="active"><a id= "link" href="#">Home</a></li>
                 <li><a  id= "link" href="#developers">Meet The Team</a></li>
                 <li><a  id= "link" href="#about">About</a></li>
-                <li><a  id= "link" href="#careers">Careers</a></li>
                 <li><a  id= "link" href="https://tolodating.herokuapp.com/reference">API Reference</a></li>
               </ul>
             </div>
@@ -99,28 +98,27 @@
     <div id = "developers" class="container marketing">
       <!-- Three columns of text below the carousel -->
       <div class="row">
+        <h1 class = 'linkHeader'>Meet the team</h1>
         <div class="col-lg-3">
           <img class="img-circle" src="../assets/images/marlon.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Marlon</h2>
-          <p>Marlon is co-founder and CTO of Tolo.</p>
+          <h2>Marlon Ma</h2>
+          <p>I'm a full stack software engineer with a strong enthusiasm for technologies. I love coding because I could always explore awesome technology and work as part of it. Constantly breaking limits and solving problems makes me feel pretty excited. Not to mention we have a great community that people support each other and learn from each other.
+Coding is pretty much a magic for me, every line of code means something. Thousands of code I write could become some really useful product people could use and may potentially change some people’s life. That makes me always full of passion.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
           <img class="img-circle" src="../assets/images/sweeny.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Brian</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Brian Sweeney</h2>
+          <p>I am a full-stack javascript developer with experience on both the front and back end. I enjoy software engineering because I have a growth mindset and love that the industry is always in flux, forcing me to learn and adapt constantly. I find there’s an art to problem solving in software engineering, and even a beauty when a something can be solved in a clear and elegant way. 
+Insofar as it is possible, I like to keep my abreast of new technologies, so for example lately I’ve been working on a dating application using React Native and even opted to write it all with ES6 syntax so that I’m ready when it becomes the norm.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
           <img class="img-circle" src="../assets/images/dan.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Dan</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Dan Frehner</h2>
         </div>
         <div class="col-lg-3">
           <img class="img-circle" src="../assets/images/eric.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Eric</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Eric Geniesse</h2>
+          <p>I am a full stack software developer and I am equally comfortable working in both the front end and the back end. The main reason why I love coding is because for every problem, there are numerous ways to handle the logic, and for every solution, there are just as many ways to write the code. I see it as a challenge to write code that can be picked up by another developer, while also keeping the logic modularized so it can be reused in the future. </p>
         </div>
       </div><!-- /.row -->
 
@@ -128,14 +126,15 @@
       <!-- START THE FEATURETTES -->
 
       <hr id= "about"class="featurette-divider">
-
+      
       <div class="row featurette">
+      <h1 class = 'linkHeader'>About the App</h1>
         <div class="col-md-7">
           <h2 class="featurette-heading">Find people near you. Now.</h2>
-          <p class="lead">Tolo is a spontaneus dating app that pairs people who are within walking distance of each other. You could be going out for a cup of coffee and just want to have a converation while while you go.</p>
+          <p class="lead">Tolo is a dating app that pairs people who are within walking distance of each other. You could be going out for a cup of coffee and just want to have a spontaneous converation.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="../assets/images/showList.gif" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -144,48 +143,16 @@
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Women get to start things off </h2>
-          <p class="lead">Tolo takes the pressure out of dating. Women don't have to worry about guys sending messages when they are just out with the girls. It is up to the Woman to decide if she wants to start talking.</p>
+          <p class="lead">Tolo takes the pressure out of dating. Women don't have to worry about guys sending messages when they are just out with the girls. It is up to the Woman to decide if she wants to start a conversation.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="../assets/images/firstMessage.gif" alt="Generic placeholder image">
         </div>
       </div>
       
       <hr id= "careers" class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-
-      <div class="list-group">
-          <ul class = "jobs">
-          <li><h2 class="list-group-item-heading">Career Opportunities At Tolo</h2></li>
-          <li class = "jobRec">
-          <h3 class="list-group-item-text paragraph">Full Stack Unpaid Summer Intern</h3>
-          <p class="list-group-item-text paragraph">We are currently looking for some amazing and motivated full-stack unpaid summer interns. We're looking for applicants who are passionate about both architectural and design aspects of developing.</p>
-          <p class="list-group-item-text paragraph">As a Full-Stack Summer Intern, you will:</p>
-          <p class="list-group-item-text paragraph">- Work closely with the founders</p>
-          <p class="list-group-item-text listItem">- Develop and implement Tolo API endpoints</p>
-          <p class="list-group-item-text listItem">- Design and build next generation data analytics dashboard</p>
-          <p class="list-group-item-text listItem">- Build custom tools for customer interface</p>
-          <p class="list-group-item-text listItem">- Build and maintain design of customer facing website</p>
-          <p class="list-group-item-text listItem">- Work with graphics to design and wireframe modern interfaces</p>
-          <p class="list-group-item-text paragraph">We’re looking for:</p>
-          <p class="list-group-item-text paragraph">- Experience with building data API’s
-Familiarity with Ajax design concepts</p>
-          <p class="list-group-item-text listItem">- 2+ years experience with any frontend javascript MVC (example: Backbone or AngularJS)</p>
-          <p class="list-group-item-text listItem">- Expert level experience with HTML5/Javascript/CSS</p>
-          <p class="list-group-item-text listItem">- Familiarity with design concepts</p>
-          <p class="list-group-item-text listItem">- Experience with data visualization</p>
-          <p class="list-group-item-text listItem">- 2+ years in web/backend development</p>
-          <p class="list-group-item-text paragraph">What's in it for you:</p>
-          <p class="list-group-item-text paragraph">- Be a part of an early stage startup with incredible growth opportunities.</p>
-          <p class="list-group-item-text listItem">- Meaningful equity.</p>
-          <p class="list-group-item-text listItem">- Unlimited vacation and flexible working hours.</p>
-          <p class="list-group-item-text listItem">- Familiarity with design concepts</p>
-          </li>
-          </ul>
-      </div>
-
-
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
